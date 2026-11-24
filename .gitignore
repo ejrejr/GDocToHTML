@@ -1,0 +1,25 @@
+# Google Apps Script / clasp secrets & project bindings
+.clasp.json
+.clasprc.json
+*.clasprc.json
+
+# Environment variables, credentials, and private keys
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+credentials.json
+token.json
+client_secret*.json
+
+# Node & package manager artifacts
+node_modules/
+npm-debug.log*
+
+# OS & editor artifacts
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

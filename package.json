@@ -1,0 +1,21 @@
+{
+  "name": "gdoc-to-html",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Container-bound Google Apps Script sidebar that exports Google Docs tabs or selections into clean, style-free semantic HTML for Medium and GitHub.",
+  "license": "MIT",
+  "engines": {
+    "node": ">=24.0.0"
+  },
+  "scripts": {
+    "test": "node --test",
+    "clasp:login": "clasp login",
+    "clasp:status": "clasp status",
+    "clasp:push": "clasp push",
+    "clasp:pull": "clasp pull",
+    "clasp:open": "clasp open-script"
+  },
+  "devDependencies": {
+    "@google/clasp": "^3.0.0"
+  }
+}
